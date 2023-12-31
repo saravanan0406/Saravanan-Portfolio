@@ -8,7 +8,5 @@ $("#skillcontent").mouseover(function(){
 $("#contactcontent").mouseover(function(){
     $("#concontent").slideDown(3000)
 })
-$('.subm').click(function(){
-    alert("Successfully Send")
-})
+
 });
