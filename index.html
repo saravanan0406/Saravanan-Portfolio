@@ -116,22 +116,22 @@
           </div>
         <div class="row justify-content-center bg-success-subtle border rounded mt-5 pt-5 pb-3" id="concontent" style="display: none;">
           <div class="col-md-6 pb-3">
-        <form>
+        <form method="post" data-netlify="true" onSubmit="submit">
           <div class=" form-floating mb-3" id="animi">
-            <input type="text" class="form-control" name="name1" id="floatingInput" placeholder="name"aria-describedby="namelHelp">
+            <input type="text" class="form-control" name="name" id="floatingInput" placeholder="name"aria-describedby="namelHelp">
             <label for="floatingInput" id="f1">name</label>
           </div>
           <div class="form-floating mb-3" id="animi1">
-            <input type="number" class="form-control" name="mobile1" id="floatingMobile" placeholder="mobile-no" aria-describedby="mobilelHelp">
+            <input type="number" class="form-control" name="mobile" id="floatingMobile" placeholder="mobile-no" aria-describedby="mobilelHelp">
             <label for="floatingMobile" id="f1">mobile-no</label>
           </div>
           <div class="form-floating mb-3" id="animi">
-            <input type="email" class="form-control" name="email1" id="exampleInputEmail1" placeholder="email" aria-describedby="emailHelp">
+            <input type="email" class="form-control" name="email" id="exampleInputEmail1" placeholder="email" aria-describedby="emailHelp">
             <label for="exampleInputEmail1" id="f1">Email address</label>
           </div>
           <div class="form-floating mb-3" id="animi1">
-            <textarea class="form-control" name="comment1" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-            <label for="floatingTextarea2" id="f1">Comments</label>
+            <textarea class="form-control" name="comment" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2" id="f1">message</label>
           </div>
           <button type="submit" class="btn btn-danger subm" id="f1">Submit</button>
         </form>
