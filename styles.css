@@ -2,10 +2,10 @@
     padding: 0 0;
 }
 .font, .aboutfont{
-    font-family: 'Roboto Slab', serif;
+	font-family: 'DotGothic16', sans-serif;
 }
 #f1{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Concert One', sans-serif;
 }
 #img{
     width: 100px;
